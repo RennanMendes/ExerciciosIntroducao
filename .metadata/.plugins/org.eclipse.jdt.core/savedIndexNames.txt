@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\starr\OneDrive\Área de Trabalho\Generation\Exercicios\Java\Bloco 1\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+551064098.index
+2655762881.index
