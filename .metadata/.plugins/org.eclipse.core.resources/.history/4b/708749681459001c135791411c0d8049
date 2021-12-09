@@ -1,0 +1,86 @@
+package Condicionais;
+
+import java.util.Scanner;
+
+public class Exercicio_2 {
+
+	public static void main(String[] args) {
+
+		Scanner in = new Scanner (System.in);
+		int num1=0, num2=0, num3=0, maior=0, medio=0, menor=0;
+		
+		System.out.print("Digite o primeiro número: ");
+		num1= in.nextInt();
+		
+		System.out.print("Digite o segundo número: ");
+		num2= in.nextInt();
+		
+		System.out.print("Digite o terceiro número: ");
+		num3= in.nextInt();
+		
+		if(num1>num2)
+		{
+			maior=num1;	
+		}
+		else
+		{
+			maior=num2;
+		
+		}
+		if(maior<num3)
+		{	
+			maior=num3;
+		}
+		
+/*		if (num1>num2 && num1<maior) 
+		{	
+			medio=num1;
+		}
+		else if (num2>num1 && num2<maior)
+		{
+			medio=num2;
+		}
+		else if (num3>medio && num3<maior)
+		{
+			medio=num3;
+		}
+*/
+		if(num1>num2) 
+		{
+			menor=num2;
+		}
+				
+		else
+		{
+			menor=num1;
+		}
+		
+		if(menor>num3) 
+		{
+			menor=num3;
+		}
+		
+		if(num1>menor && num1<maior) 
+		{
+			medio=num1;
+		}
+				
+		else if(num2>menor && num2<maior) 
+		{
+			medio=num1;
+		}
+		
+		else 
+		{
+			medio=num3;
+		}
+		
+		
+		
+			
+		
+		System.out.print("O maior número é "+maior+", o do meio é "+ medio + " e o menor é " + menor);
+
+	}
+
+}
