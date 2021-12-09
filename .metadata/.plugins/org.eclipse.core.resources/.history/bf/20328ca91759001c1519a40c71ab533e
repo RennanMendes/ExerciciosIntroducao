@@ -61,7 +61,11 @@ public class Exercicio_2 {
 		else 
 		{
 			medio=num3;
-		}			
+		}
+		
+		
+		
+			
 		
 		System.out.print("O maior número é "+maior+", o do meio é "+ medio + " e o menor é " + menor);
 

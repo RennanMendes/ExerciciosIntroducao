@@ -29,6 +29,6 @@ public class Exercicio_1 {
 		
 		System.out.println("O mairo número digitado é: " + maior);
 		
-	} 
+	}
 
 }

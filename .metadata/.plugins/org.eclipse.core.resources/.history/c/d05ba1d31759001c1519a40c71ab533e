@@ -25,7 +25,7 @@ public class Exercicio_4 {
 		{
 			x= (float) Math.pow(num,2);
 			System.out.println("O número digitado é impar e o mesmo elevado ao quadrado é "+x);
-		} 
+		}
 	
 	}
 	
