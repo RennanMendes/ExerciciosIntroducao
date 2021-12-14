@@ -1,0 +1,36 @@
+package IntroducaoPoo;
+
+import java.util.Scanner;
+
+public class Exercicio_1 {
+	
+	public static void main (String[] args) {
+		
+		Scanner in = new Scanner (System.in);
+		
+		byte escolha=0;
+		
+		System.out.println("Escolha uma das opções abaixo:\n1 - Cliente\n2 - Avião\n3 - Eletônico\n4 - Funcionario\n5 - Patinete\n6 - Conta Bancaria\n7 - Paciente");
+		escolha=in.nextByte();
+		
+		switch (escolha)
+		{
+			case 1:
+			{
+				Cliente cliente = new Cliente();
+				System.out.println("Informe o genero do cliente: ");
+				cliente.setGerenro(in.nextLine());
+				System.out.println("Informe a idade do cliente: ");
+				cliente.setIdade(in.nextInt());
+				System.out.println("Informe o produto de interesse do cliente: ");
+				cliente.setInteresse(in.nextLine());
+				System.out.println("Informe a verba do cliente: ");
+				cliente.setSaldo(in.nextDouble());
+				
+			}
+		}
+		
+		in.close();
+	}
+
+}

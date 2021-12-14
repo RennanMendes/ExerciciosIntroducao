@@ -1,0 +1,22 @@
+package IntroducaoPoo;
+
+import java.util.Scanner;
+
+public class Exercicio_1 {
+	
+	public static void main (String[] args) {
+		
+		Scanner in = new Scanner (System.in);
+		
+		
+				Cliente cliente = new Cliente();			
+				cliente.setGenero("Masculino");			
+				cliente.setIdade(20);	
+				cliente.setInteresse("Carro");
+				cliente.setSaldo(80000.00);
+				
+		
+		in.close();
+	}
+
+}

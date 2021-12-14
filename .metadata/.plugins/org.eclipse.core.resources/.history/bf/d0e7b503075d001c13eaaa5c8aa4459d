@@ -1,0 +1,53 @@
+package IntroducaoPoo;
+
+public class Cliente {
+	
+	//ATRIBUTOS
+	
+	private String gerenro, interesse;
+	private int idade;
+	private double saldo;
+	
+	public Cliente() {
+		this.gerenro="N/D";
+		this.idade=0;
+		this.interesse="N/D";
+		this.saldo=0;	
+	}
+	
+	public String getGerenro() {
+		return gerenro;
+	}
+	
+	public void setGerenro(String gerenro) {
+		this.gerenro = gerenro;
+	}
+	
+	public String getInteresse() {
+		return interesse;
+	}
+	
+	public void setInteresse(String interesse) {
+		this.interesse = interesse;
+	}
+	
+	public int getIdade() {
+		return idade;
+	}
+	
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+	
+	public double getSaldo() {
+		return saldo;
+	}
+	
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+	
+
+	
+
+}

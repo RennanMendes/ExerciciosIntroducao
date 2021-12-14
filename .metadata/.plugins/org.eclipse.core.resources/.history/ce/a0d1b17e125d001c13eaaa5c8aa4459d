@@ -1,0 +1,11 @@
+package IntroducaoPoo;
+
+public class Funcionario {
+	
+	String codigo, nome;
+	int idade;
+	double salario;
+	
+	
+
+}

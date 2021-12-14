@@ -1,0 +1,21 @@
+package IntroducaoPoo;
+
+public class Aviao {
+	
+	String cor, modelo, companhia;
+	boolean ligado, embarque;
+	
+	
+	public void setCor(String cor) {
+		this.cor = cor;
+	}
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+	public void setCompanhia(String companhia) {
+		this.companhia = companhia;
+	}
+	
+	
+
+}
