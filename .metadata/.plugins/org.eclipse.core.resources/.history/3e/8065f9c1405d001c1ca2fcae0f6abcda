@@ -14,7 +14,7 @@ public class Cliente {
 		this.interesse="N/D";
 		this.saldo=0;	
 	}
-	 
+	
 	
 	public void setGenero(String genero) {
 		this.genero = genero;

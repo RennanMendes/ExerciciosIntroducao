@@ -10,7 +10,7 @@ Scanner in = new Scanner (System.in);
 		
 		byte escolha=0;
 		
-		System.out.println("Escolha uma das opções abaixo:\n1 - Cliente\n2 - Avião\n3 - Eletônico");
+		System.out.println("Escolha uma das opções abaixo:\n1 - Cliente\n2 - Avião\n3 - Eletônico\n4 - Funcionario\n5 - Patinete\n6 - Conta Bancaria\n7 - Paciente");
 		escolha=in.nextByte();
 		
 		switch (escolha)
@@ -63,10 +63,6 @@ Scanner in = new Scanner (System.in);
 				pc.setComprar(in.nextBoolean());
 				pc.status();
 				break;
-			}
-			default:
-			{
-				System.out.println("Opção invalida!!!");
 			}
 		}
 		
