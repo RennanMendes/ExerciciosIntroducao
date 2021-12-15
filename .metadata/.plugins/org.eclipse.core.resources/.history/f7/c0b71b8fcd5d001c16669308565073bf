@@ -1,0 +1,14 @@
+package Heranca;
+
+public class Execercicio_1 {
+	
+	public static void main(String[] args) {
+		
+		Cachorro dog = new Cachorro();
+		Cavalo horse = new Cavalo();
+		Preguica sloth = new Preguica();
+		
+		
+	}
+
+}

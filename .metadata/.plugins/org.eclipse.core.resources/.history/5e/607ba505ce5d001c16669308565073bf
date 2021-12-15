@@ -1,0 +1,30 @@
+package Heranca;
+
+import java.util.Scanner;
+
+public class Execercicio_1 {
+	
+	public static void main(String[] args) {
+		
+		Cachorro dog = new Cachorro();
+		Cavalo horse = new Cavalo();
+		Preguica sloth = new Preguica();
+		Scanner in = new Scanner(System.in);
+		
+		dog.setNome(in.next());
+		dog.setIdade(in.nextInt());
+		dog.emitirSom();
+		dog.correr();
+		
+		horse.setNome(in.next());
+		horse.setIdade(in.nextInt());
+		horse.correr();
+		
+		sloth.setNome(in.next());
+		sloth.setIdade(in.nextInt());
+		sloth.subir();
+		
+		
+	}
+
+}

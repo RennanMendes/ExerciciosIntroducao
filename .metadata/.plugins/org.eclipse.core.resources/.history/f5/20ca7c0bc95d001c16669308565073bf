@@ -1,0 +1,16 @@
+package Heranca;
+
+public class QuatroPatas {
+	
+	boolean correr;
+
+	public boolean getCorrer() {
+		return correr;
+	}
+
+	public void setCorrer(boolean correr) {
+		this.correr = correr;
+	}
+
+
+}

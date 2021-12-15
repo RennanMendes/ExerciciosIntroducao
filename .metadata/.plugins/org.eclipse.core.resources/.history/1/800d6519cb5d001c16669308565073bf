@@ -1,0 +1,14 @@
+package Heranca;
+
+public class QuatroPatas extends Animal {
+	
+	private boolean corre;
+
+	public boolean getCorrer() {
+		return corre;
+	}
+
+	public void comecarCorrer
+
+
+}
