@@ -7,6 +7,11 @@ public class Cavalo extends Animal {
 		System.out.println("O cavalo esta correndo");
 		
 	}
-
+	
+	public void pararDeCorrer () {
+		
+		System.out.println("O cavalo parou de correr");
+		
+	}
 
 }

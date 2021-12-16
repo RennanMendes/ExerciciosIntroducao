@@ -16,19 +16,19 @@ public class Execercicio_1 {
 		System.out.println("Digite a idade: ");
 		dog.setIdade(in.nextInt());
 		dog.emitirSom();
-		
+		dog.correr();
 		
 		System.out.println("Digite o nome: ");
 		horse.setNome(in.next());
 		System.out.println("Digite a idade: ");
 		horse.setIdade(in.nextInt());
-		
+		horse.correr();
 		
 		System.out.println("Digite o nome: ");
 		sloth.setNome(in.next());
 		System.out.println("Digite a idade: ");
 		sloth.setIdade(in.nextInt());
-		
+		sloth.subir();
 		
 		in.close();
 		
